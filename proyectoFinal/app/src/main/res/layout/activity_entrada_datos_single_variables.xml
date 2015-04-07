@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.numericos.proyectofinal.views.single_variable.Entrada_datos_single_variables"
+    android:id="@+id/entrada_datos_single_variables">
+
+    <TextView android:text="Xi" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Xi"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/Iterations"
+        android:layout_alignStart="@+id/Iterations" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/datoXi_single_variables"
+        android:layout_below="@+id/Xi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/ok_datos"
+        android:onClick="Hacer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/datoXs_single_variables"
+        android:background="#ffffa87b"
+        android:layout_below="@+id/Xs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Xs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Xs"
+        android:layout_below="@+id/datoXi_single_variables"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:text="F(x)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Fx"
+        android:layout_below="@+id/datoXs_single_variables"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/datoFx_single_variables"
+        android:background="#ffffa87b"
+        android:layout_below="@+id/Fx"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:text="Tolerance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tolerance"
+        android:layout_below="@+id/datoFx_single_variables"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/datoTolerance_single_variables"
+        android:background="#ffffa87b"
+        android:layout_below="@+id/Tolerance"
+        android:layout_alignRight="@+id/datoFx_single_variables"
+        android:layout_alignEnd="@+id/datoFx_single_variables" />
+
+    <TextView
+        android:text="Iterations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Iterations"
+        android:layout_below="@+id/datoTolerance_single_variables"
+        android:layout_alignRight="@+id/Tolerance"
+        android:layout_alignEnd="@+id/Tolerance" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/datoIterations_single_variables"
+        android:background="#ffffa87b"
+        android:layout_below="@+id/Iterations"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Delta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Delta"
+        android:layout_below="@+id/datoIterations_single_variables"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/datoDelta_single_variables"
+        android:background="#ffffa87b"
+        android:layout_below="@+id/Delta"
+        android:layout_alignRight="@+id/datoIterations_single_variables"
+        android:layout_alignEnd="@+id/datoIterations_single_variables" />
+
+    <TextView
+        android:text="G(x)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/datoDelta_single_variables"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/datoGx_single_variables"
+        android:background="#ffffa87b"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="F´(x)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:layout_below="@+id/datoGx_single_variables"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:id="@+id/datoFxP_single_variables"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffff6538" />
+
+
+</RelativeLayout>

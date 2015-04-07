@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/texto_pedidos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For more info look user's guide:"
+        android:id="@+id/Saludo" />
+
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/txtCredits"
+        android:autoLink="web" android:id="@+id/infoTxtCredits"
+        android:layout_centerInParent="true"
+        android:linksClickable="true"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView" />
+</LinearLayout>

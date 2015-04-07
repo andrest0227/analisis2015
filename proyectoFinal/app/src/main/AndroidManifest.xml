@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.numericos.proyectofinal" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".views.main.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.single_variable.Fragment_Single_Variable"
+            android:parentActivityName=".views.main.MainActivity" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.IncrementalSearchMethod"
+            android:parentActivityName=".views.single_variable.Fragment_Single_Variable" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.BisectionMethod"
+            android:parentActivityName=".views.single_variable.Fragment_Single_Variable" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.FalsePositionMethod"
+            android:parentActivityName=".views.single_variable.Fragment_Single_Variable" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.FixedPointMethod"
+            android:parentActivityName=".views.single_variable.Fragment_Single_Variable" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.NewtonMethod"
+            android:parentActivityName=".views.single_variable.Fragment_Single_Variable" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.SecantMethod"
+            android:parentActivityName=".views.single_variable.Fragment_Single_Variable" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.MultipleRootsMethod"
+            android:parentActivityName=".views.single_variable.Fragment_Single_Variable" >
+        </activity>
+        <activity
+            android:name=".views.numerical_integration.Fragment_Numerical_Integration"
+            android:parentActivityName=".views.main.MainActivity" >
+        </activity>
+        <activity
+            android:name=".views.numerical_integration.SimpleTrapezeMethod"
+            android:parentActivityName=".views.numerical_integration.Fragment_Numerical_Integration" >
+        </activity>
+        <activity
+            android:name=".views.numerical_integration.CompoundTrapezeMethod"
+            android:parentActivityName=".views.numerical_integration.Fragment_Numerical_Integration" >
+        </activity>
+        <activity
+            android:name=".views.numerical_integration.Simpson1_3Method"
+            android:parentActivityName=".views.numerical_integration.Fragment_Numerical_Integration" >
+        </activity>
+        <activity
+            android:name=".views.numerical_integration.CompoundSimpson1_3Method"
+            android:parentActivityName=".views.numerical_integration.Fragment_Numerical_Integration" >
+        </activity>
+        <activity
+            android:name=".views.numerical_integration.Simpson3_8Method"
+            android:parentActivityName=".views.numerical_integration.Fragment_Numerical_Integration" >
+        </activity>
+        <activity
+            android:name=".views.numerical_integration.CompoundSimpson3_8Method"
+            android:parentActivityName=".views.numerical_integration.Fragment_Numerical_Integration" >
+        </activity>
+        <activity
+            android:name=".views.system_equations.Fragment_System_Equation"
+            android:parentActivityName=".views.main.MainActivity" >
+        </activity>
+        <activity
+            android:name=".views.system_equations.SimpleGaussianMethod"
+            android:parentActivityName=".views.system_equations.Fragment_System_Equation" >
+        </activity>
+        <activity
+            android:name=".views.system_equations.PivoteoParcialMethod"
+            android:parentActivityName=".views.system_equations.Fragment_System_Equation" >
+        </activity>
+        <activity
+            android:name=".views.system_equations.PivoteoTotalMethod"
+            android:parentActivityName=".views.system_equations.Fragment_System_Equation" >
+        </activity>
+        <activity
+            android:name=".views.system_equations.PivoteoEscalonadoMethod"
+            android:parentActivityName=".views.system_equations.Fragment_System_Equation" >
+        </activity>
+        <activity
+            android:name=".views.system_equations.JacobiMethod"
+            android:parentActivityName=".views.system_equations.Fragment_System_Equation" >
+        </activity>
+        <activity
+            android:name=".views.system_equations.SeidelMethod"
+            android:parentActivityName=".views.system_equations.Fragment_System_Equation" >
+        </activity>
+        <activity
+            android:name=".views.interpolation.Fragment_Interpolation"
+            android:parentActivityName=".views.main.MainActivity" >
+        </activity>
+        <activity
+            android:name=".views.interpolation.Lagrange_Method"
+            android:parentActivityName=".views.interpolation.Fragment_Interpolation" >
+        </activity>
+        <activity
+            android:name=".views.interpolation.Neville_Method"
+            android:parentActivityName=".views.interpolation.Fragment_Interpolation" >
+        </activity>
+        <activity
+            android:name=".views.interpolation.Newton_For_Interpolation_Method"
+            android:parentActivityName=".views.interpolation.Fragment_Interpolation" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.Entrada_datos_single_variables"
+            android:label="@string/title_activity_entrada_datos_single_variables" >
+        </activity>
+        <activity
+            android:name=".views.single_variable.BisectionPrueba"
+            android:label="@string/title_activity_bisection_prueba" >
+        </activity>
+        <activity
+            android:name=".Tabla"
+            android:label="@string/title_activity_tabla" >
+        </activity>
+    </application>
+
+</manifest>

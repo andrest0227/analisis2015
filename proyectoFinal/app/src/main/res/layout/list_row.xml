@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <!--  listrow  -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/list_row_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:maxWidth="83px"
+            android:maxHeight="103px"
+            android:longClickable="false" />
+
+    </LinearLayout>
+
+    <!-- titulo de la categoria -->
+    <TextView
+        android:id="@+id/list_row_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/list_row_subtitle"
+        android:textSize="12dp"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:layout_alignLeft="@+id/list_row_title"
+        android:layout_alignStart="@+id/list_row_title"
+        android:layout_alignRight="@+id/list_row_title"
+        android:layout_alignEnd="@+id/list_row_title"
+        android:layout_below="@+id/list_row_title"/>
+
+</RelativeLayout>

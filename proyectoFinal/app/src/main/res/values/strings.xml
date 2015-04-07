@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">proyectoFinal</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab1_name">Numerical Methods</string>
+    <string name="tab2_name">About</string>
+    <string name="tab3_name">Other Info</string>
+    <string name="member1_name">Pacho Correa</string>
+    <string name="member1_description">Teacher</string>
+    <string name="member2_name">Ana Maria Ramirez</string>
+    <string name="member2_description">Systems Engineering student</string>
+    <string name="member3_name">Sara Castrillon</string>
+    <string name="member3_description">Systems Engineering student</string>
+    <string name="member4_name">Juan David Uribe</string>
+    <string name="member4_description">Systems Engineering student</string>
+    <string name="x_inicial_label">Xo:</string>
+    <string name="iteraciones_label">Iteraciones:</string>
+    <string name="delta_label">Delta:</string>
+    <string name="function_label">Function:</string>
+    <string name="txtCredits"><a href="User's guide">http://www.eafit.edu.co/ecards/adjuntos-mercurio/informacion-institucional/img/2014/archivos-2014-2/User%20Manual.pdf</a></string>
+    <string name="write_matrix_A">Enter matrix A </string>
+    <string name="write_vector_b">Enter vector b </string>
+    <string name="jacobi_tolerancia">Tolerance</string>
+    <string name="jacobi_iterations">Iterations</string>
+    <string name="jacobi_initial_values">Initial Values</string>
+    <string name="jacobi_lambda">Lambda</string>
+    <string name="title_activity_entrada_datos_single_variables">Entrada_datos_single_variables
+    </string>
+    <string name="title_activity_bisection_prueba">BisectionPrueba</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tabla">Tabla</string>
+
+</resources>
