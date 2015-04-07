@@ -39,9 +39,9 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 
         tab = actionBar.newTab().setText(R.string.tab2_name).setTabListener(this);
         actionBar.addTab(tab);
-
+/*
         tab = actionBar.newTab().setText(R.string.tab3_name).setTabListener(this);
-        actionBar.addTab(tab);
+        actionBar.addTab(tab);*/
 
     }
 

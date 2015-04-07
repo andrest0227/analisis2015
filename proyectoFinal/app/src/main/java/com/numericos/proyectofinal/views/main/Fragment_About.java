@@ -23,26 +23,21 @@ public class Fragment_About extends Fragment {
     ListViewAdapter adapter;
 
     String[] titulo = new String[]{
-            "Francisco Correa",
-            "Alejandro Villa",
-            "Ana Maria Ramirez",
-            "Sara Castrillon",
-            "Juan David Uribe"
+             "Ana Maria Ramirez",
+            "David Alejandro Rivera",
+            "Andres Felipe Tirado"
     };
 
     String[] description = new String[]{
-            "Teacher",
-            "Teacher",
+
             "Developer ",
             "Developer",
             "Developer"
     };
 
     int[] imagenes = {
-            R.drawable.pacho,
-            R.drawable.pacho,
-            R.drawable.sara,
             R.drawable.ana,
+            R.drawable.juanda,
             R.drawable.juanda
     };
 
